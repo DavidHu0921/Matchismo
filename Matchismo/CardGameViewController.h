@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Deck.h"
 
 @interface CardGameViewController : UIViewController
 
+-(Deck *)createDeck;
 @end
